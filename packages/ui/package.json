@@ -11,6 +11,9 @@
     "dev": "rollup --config rollup.config.mjs -w",
     "clean": "rm -rf dist"
   },
+  "publishConfig": {
+    "registry": "http://8.138.248.76:4873/"
+  },
   "keywords": [
     "web3",
     "components",

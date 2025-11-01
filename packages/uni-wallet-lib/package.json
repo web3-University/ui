@@ -15,7 +15,7 @@
     }
   },
   "publishConfig": {
-    "registry": "http://8.156.91.169:4873/"
+    "registry": "http://8.138.248.76:4873/"
   },
   "scripts": {
     "dev": "rollup -c --watch",
