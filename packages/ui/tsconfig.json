@@ -12,7 +12,11 @@
     "noEmit": false,
     "emitDeclarationOnly": false,
     "module": "ESNext",
-    "target": "ESNext"
+    "target": "ESNext",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules", "dist", "__tests__"]
