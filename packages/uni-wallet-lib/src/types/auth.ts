@@ -23,7 +23,7 @@ export interface AuthConfig {
   /** 是否在连接钱包后自动签名 */
   autoSignOnConnect?: boolean;
   /** 签名成功回调 */
-  onSuccess?: (token: string) => void;
+  onSuccess?: (token: string, user: User) => void;
   /** 签名失败回调 */
   onError?: (error: Error) => void;
   /** 状态变化回调 */

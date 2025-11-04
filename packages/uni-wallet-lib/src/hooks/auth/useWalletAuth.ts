@@ -31,7 +31,7 @@ import { useWalletSign } from "./useWalletSign";
  */
 export function useWalletAuth(config: AuthConfig = {}) {
   const {
-    domain = typeof window !== "undefined" ? window.location.host : "localhost",
+    domain = typeof window !== "undefined" ? `${window.location.protocol}//${window.location.host}` : "localhost",
     apiBaseUrl = "/api/v1/auth",
     onSuccess,
     onError,
@@ -148,7 +148,7 @@ export function useWalletAuth(config: AuthConfig = {}) {
 
       // 成功
       updateStatus(SignInStatus.SUCCESS);
-      onSuccess?.(accessToken);
+      onSuccess?.(accessToken, user);
 
       return accessToken;
     } catch (err) {
