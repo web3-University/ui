@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0 (2025-11-04)
+
+
+### Features
+
+* 添加Shadcn/ui​​ 组件二开 ([ddcc47d](https://github.com/web3-University/ui/commit/ddcc47d0f7338186ddf8beb5a9a3c1349136e5f3))
+
+
+
+
+
 ## [1.0.4](https://github.com/web3-University/front/compare/@web3-university/components@1.0.2...@web3-university/components@1.0.4) (2025-09-28)
 
 

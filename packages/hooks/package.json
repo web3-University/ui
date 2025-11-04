@@ -1,6 +1,6 @@
 {
   "name": "@web3-university/hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web3 University Custom React Hooks Library",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
