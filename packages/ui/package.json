@@ -74,7 +74,7 @@
     "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7"
   },
-  "gitHead": "e10dcfa6475024a68778eba0c83e0279e9a9c746",
+  "gitHead": "e1c9f7fe464fb8b15573cbcff3ed976e0461ae81",
   "devDependencies": {
     "@rollup/plugin-alias": "^6.0.0",
     "@rollup/plugin-commonjs": "^25.0.0",
