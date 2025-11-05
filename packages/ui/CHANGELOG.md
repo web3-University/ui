@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/web3-University/ui/compare/@web3-university/ui@1.1.0...@web3-university/ui@1.1.1) (2025-11-05)
+
+**Note:** Version bump only for package @web3-university/ui
+
+
+
+
+
 # 1.1.0 (2025-11-04)
 
 
